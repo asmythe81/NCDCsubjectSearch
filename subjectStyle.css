@@ -1,0 +1,40 @@
+h3 {
+	font-family: "Open Sans", sans-serif;
+	background: #072c4d;
+	color: #fff;
+	text-align: center;
+}
+.mainSearch {
+	width: 100%;
+	text-align: center;
+}
+li {
+  list-style-type: none;
+}
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+#demo {
+  width: 75%;
+  text-align; center;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 75%;
+  
+}
+
+input[type=button] {
+  background-color: #075a5a;
+  color: #fff;
+  cursor: pointer;
+}
